@@ -1,0 +1,34 @@
+import { Row, Container, Col, Button } from "react-bootstrap";
+import { translateText } from "../components/translation";
+import WebLogo from "../Logo1.png";
+
+export default function About() {
+  return (
+    <div className="maintitle marginTop-5rem">
+      <Container className="mb-5 mt-3">
+        <Row className="">
+          <Col sm={7}>
+            <img
+              // className="padding-7rem"
+              src={WebLogo}
+              width="100%"
+              alt="AboutUsImg"
+              fluid
+              rounded
+            />
+          </Col>
+
+          <Col>
+            <h1 style={{ fontWeight: "700" }}>
+              {translateText().AboutUsHeading}
+            </h1>
+            <p>{translateText().ForAbout}</p>
+            <Button variant="outline-primary" href="AboutUs">
+              {translateText().viewAll}
+            </Button>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+}

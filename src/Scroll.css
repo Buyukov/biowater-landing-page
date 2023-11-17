@@ -1,0 +1,23 @@
+/* .horizContain {
+  width: 100%;
+  background-color: green;
+}
+
+.horizMainContain {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* overflow: hidden; */
+/* overflow-x: auto;
+} */
+
+/* .horizMainContain::-webkit-scrollbar {
+  width: 0;
+}
+
+.horizItem {
+  width: 11rem;
+  height: 7rem;
+  background-color: gray;
+  margin: 0.3rem;
+} */

@@ -1,38 +1,431 @@
-.App {
-  text-align: center;
+.padding-1-5rem {
+  padding: 1.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.padding-top-1rem {
+  padding-top: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fontSize13px {
+  font-size: 13px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.border-radius-0-7rem {
+  border-radius: 0.7rem;
+}
+
+.padding-7rem {
+  padding: 7rem;
+}
+
+/* .marginLeft-4-3rem {
+  margin-left: 4.3rem;
+} */
+
+/* .margin1rem {
+  margin: 4rem;
+} */
+
+.brand-carousel {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.paddingBottom-1-rem {
+  padding-bottom: 1rem;
+}
+
+.nk {
+  padding: 2.7rem;
+}
+
+.positionSticky {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.navButton {
+  border: none;
+  font-weight: 600;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: aliceblue;
+  color: black;
+}
+
+/* .p1 {
+  width: 100%;
+} */
+
+.maintitle {
+  margin-top: 1rem;
+}
+
+.marginRight-1Rem {
+  margin-right: 1rem;
+}
+
+.flag {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-right: 1rem;
+}
+
+.ll {
+  border: 1px solid rgb(248, 231, 231);
+  border-radius: 0.8rem;
+}
+
+.footer-div {
+  padding: 1.5rem;
+  background-color: #091d3e;
+  /* background-color: rgba(29, 110, 72, 0.966); */
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.copyRighter {
+  border-top: 1px solid rgba(255, 255, 255, 0.212);
+  padding-top: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.somePic {
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
+
+.containerr {
+  display: flex;
+  width: 90%;
+  margin: 5rem auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.itemss {
+  width: 18rem;
+  height: 12rem;
+  color: white;
+  background-color: #091d3e;
+  margin: 0.3rem;
+}
+
+.PartnersPic {
+  display: flex;
+  width: 80%;
+  margin: 4rem auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .Partnersitems {
+  width: 12rem;
+  height: 8rem;
+  margin: 1rem;
+} */
+
+.nLogo {
+  margin-right: 1rem;
+}
+
+.pp {
+  background-color: red;
+  margin-top: 9rem;
+}
+
+.serviceContainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: #dee2e6; */
+  padding: 0 3rem 3rem;
+}
+
+.serviceItem {
+  width: 900px;
+  height: 279px;
+  /* background-color: green; */
+  padding-top: 1rem;
+  margin: 1rem;
+  height: 100%;
+}
+
+.services {
+  background-color: rgba(6, 101, 226, 0.116);
+}
+
+.pack {
+  display: flex;
+  justify-content: space-around;
+}
+
+.PackagesButton {
+  display: flex;
+  align-items: center;
+}
+
+/* //////////////////////// Propsonal css /////////////////////////// */
+.propsonalContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+}
+
+.propsonalItem {
+  /* height: 35rem; */
+  margin: 0.1rem;
+  background-color: green;
+  padding: 1rem;
+}
+
+.propsonalForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .propsonalFormStyle {
+  display: flex;
+  flex-direction: column;
+} */
+
+.propsonalInputStyle {
+  padding: 0.5rem;
+  width: 20rem;
+  /* margin: 0.6rem; */
+  margin-top: 0.4rem;
+  border-radius: 0.5rem;
+
+  background: content-box;
+  border: 1px solid white;
+  color: white;
+}
+
+.propExplanationStyle {
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  background: content-box;
+}
+
+.propSubmitButtonStyle {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background: content-box;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+}
+
+.propCol {
+  /* background-color: green; */
+}
+
+.PropImg {
+  width: 100%;
+}
+
+.propBackgr {
+  background: linear-gradient(90deg, #00102d 0%, #104cba 56%) !important;
+  color: white;
+}
+
+/*/////////////////////// SomePictures ////////////////////*/
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 190px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.somePicImgStyle {
+  /* width: 550px;
+  height: 190px; */
+  width: 100%;
+  height: 100%;
+}
+
+.SomePicContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+  margin: 0 auto;
+}
+
+.somePicItems {
+  margin: 0.5rem;
+}
+
+/* //////////////////////// AboutUsPage Style ///////////////////*/
+.AboutUsPageStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 1rem; */
+  margin: 1rem;
+  font-weight: 550;
+}
+
+.ServicePageContentStyle {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+.FooterSpan {
+  margin-right: 1rem;
+}
+
+/* References css */
+.ReferencesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+}
+
+.ReferencesItem {
+  width: 280px;
+  height: 200px;
+  margin: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.ReferencesHeadImgContainer {
+  background-color: black;
+}
+
+.ReferencesHeadImgItem {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://egesuaritmasistemleri.com/tema/genel/uploads/arkaplan/arkaplan5/referans.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+}
+
+.ProductContentContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ProductContentItem {
+  margin: 0.7rem;
+}
+
+.MobilConContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.MobilConItem {
+  width: 400px;
+  height: 300px;
+  /* background: linear-gradient(50deg, #00102d 0%, #104cba 28%) !important; */
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  margin: 0.3rem;
+}
+
+.ReferencesHeadImgContainer2 {
+  background-color: #778899;
+}
+
+.ReferencesHeadImgItem2 {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://egesuaritmasistemleri.com/tema/genel/uploads/arkaplan/arkaplan14/iletisim.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+}
+
+/* //////////////////////////// Product type wrappers /////////////////////////////// */
+.ImageWrapper {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  display: flex;
+  overflow: auto;
+  /* border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem; */
+  border-radius: 0.5rem;
+}
+
+.ImageWrapper::-webkit-scrollbar {
+  width: 10px;
+  cursor: pointer;
+}
+
+.ImageWrapperItem {
+  min-width: 300px;
+  height: 160px;
+  line-height: 110px;
+  text-align: center;
+  background-color: #ddd;
+  margin-right: 23px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////*/
