@@ -3,23 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import WebLogo from "../Logo1.png";
 
 export default function SomePictures() {
-  // return (
-  //   <container className="containerr">
-  //     <div class="itemss">
-  //       item-1
-  //       <div>
-  //         <p className="pp">h</p>
-  //       </div>
-  //     </div>
-  //     <div class="itemss">item-2</div>
-  //     <div class="itemss">item-3</div>
-  //     <div class="itemss">item-4</div>
-  //   </container>
-  // );
-
-  // <div className="SomePicContainer">
-  // </div>
-
   return (
     <Container className="mb-5">
       <Row>
