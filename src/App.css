@@ -407,7 +407,7 @@
 /* //////////////////////////// Product type wrappers /////////////////////////////// */
 .ImageWrapper {
   max-width: 100%;
-  border: 1px solid #ddd;
+  border: none;
   display: flex;
   overflow: auto;
   /* border-top-right-radius: 0.5rem;
