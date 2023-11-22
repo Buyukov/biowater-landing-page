@@ -27,7 +27,7 @@ export default function Example() {
             {translateText().propForm3}
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>+99899 999 99 99</Modal.Body>
+        <Modal.Body>+99899 123 45 67</Modal.Body>
       </Modal>
 
       {/* <Modal
