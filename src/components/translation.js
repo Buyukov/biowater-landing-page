@@ -1,5 +1,3 @@
-import React from "react";
-
 let RussianLan = {
   nav1: "ДОМАШНЯЯ СТРАНИЦА",
   nav2: "О НАС",

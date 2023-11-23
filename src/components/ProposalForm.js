@@ -77,9 +77,10 @@ export default function ProposalForm() {
                     <textarea
                       id="textArea"
                       name="textArea"
-                      rows="4"
-                      cols="37"
+                      rows="5"
+                      cols="43"
                       className="propExplanationStyle"
+                      style={{ color: "#fff" }}
                     ></textarea>
 
                     <div>
