@@ -205,6 +205,7 @@
   background: content-box;
   border: 1px solid white;
   color: white;
+  width: 100%;
 }
 
 .propExplanationStyle {

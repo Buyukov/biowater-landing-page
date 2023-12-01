@@ -13,10 +13,11 @@ export default function Footer() {
               <a href="/">
                 <img
                   src={WebLogo}
-                  width="300px"
-                  height="140px"
                   alt="footerLogo"
-                  style={{ margin: "1rem" }}
+                  style={{
+                    margin: "1rem",
+                    width: "60%",
+                  }}
                 />
               </a>
             </div>
