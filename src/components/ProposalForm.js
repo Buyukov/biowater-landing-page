@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { translateText } from "./translation";
+import PropsonalPhoto from "../Images/PropsonalPhoto.png";
 
 export default function ProposalForm() {
   return (
@@ -9,7 +10,7 @@ export default function ProposalForm() {
           <Col sm={6} className="propCol">
             <div>
               <img
-                src="https://egesuaritmasistemleri.com/tema/genel/uploads/arkaplan/arkaplan23/image3-home1.png"
+                src={PropsonalPhoto}
                 className="PropImg"
                 alt="THIS WEBSITE WAS CREATED BY DILMUROD BUYUKOV"
               />

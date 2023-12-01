@@ -1,5 +1,29 @@
 import { Container, Card, ListGroup } from "react-bootstrap";
 import { translateText } from "../components/translation";
+import ProductImage1 from "../Images/product-1.jpg";
+import ProductImage2 from "../Images/product-2.jpg";
+import ProductImage3 from "../Images/product-3.jpg";
+import ProductImage4 from "../Images/product-4.jpg";
+import ProductImage5 from "../Images/product-5.png";
+import ProductImage6 from "../Images/product-6.jpg";
+import ProductImage7 from "../Images/product-7.png";
+import ProductImage8 from "../Images/product-8.jpg";
+import ProductImage9 from "../Images/product-9.jpg";
+import ProductImage10 from "../Images/product-10.jpg";
+import ProductImage11 from "../Images/product-11.jpg";
+import ProductImage12 from "../Images/product-12.jpg";
+import ProductImage13 from "../Images/product-13.png";
+import ProductImage14 from "../Images/product-14.png";
+import ProductImage15 from "../Images/product-15.png";
+import ProductImage16 from "../Images/product-16.png";
+import ProductImage17 from "../Images/product-17.png";
+import ProductImage18 from "../Images/product-18.jpg";
+import ProductImage19 from "../Images/product-19.png";
+import ProductImage20 from "../Images/product-20.png";
+import ProductImage21 from "../Images/product-21.png";
+import ProductImage22 from "../Images/product-22.png";
+import ProductImage23 from "../Images/product-23.png";
+import ProductImage24 from "../Images/product-24.png";
 
 export default function ProductsContent() {
   return (
@@ -7,11 +31,7 @@ export default function ProductsContent() {
       <div className="ProductContentContainer">
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="	https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/grisu.jpg"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage1} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -29,11 +49,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="	https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/mbr1.jpg"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage2} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -51,11 +67,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="	https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/mbbr1.jpg"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage3} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -74,11 +86,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="	https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/betonarme-biyolojik-su-aritma1.jpg"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage4} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>{translateText().ProductsContetWords2}</Card.Text>
@@ -93,11 +101,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/Paket-Ar%C4%B1tma-Sistemleri.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage5} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>{translateText().ProductsContetWords3}</Card.Text>
@@ -112,11 +116,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/ters-ozmoz1.jpg"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage6} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>{translateText().ProductsContetWords4}</Card.Text>
@@ -131,11 +131,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/endustryel.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage7} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>{translateText().ProductsContetWords5}</Card.Text>
@@ -150,11 +146,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/UF2.jpg"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage8} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -174,11 +166,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/kum-filtrre1.jpg"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage9} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -196,11 +184,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/Karbon-filtre.jpg"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage10} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -218,11 +202,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/kum-filtrre1_1.jpg"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage11} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -240,11 +220,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/Yuzey-Borulamal%C4%B1-sistemler2.jpg"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage12} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -262,11 +238,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/Bwt_Multi_C_3000.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage13} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -284,11 +256,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/tandemyumusatma3134.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage14} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -306,11 +274,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/BWT_Perla_silk.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage15} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -328,11 +292,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/tandemyumusatma3134_1.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage16} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -350,11 +310,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/BWTB-11360_1.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage17} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -372,11 +328,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/uv2.jpg"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage18} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -394,11 +346,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/slimuffiltre5.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage19} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -417,11 +365,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/Slim_4_Tezgah_AltY_Su_ArYtma.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage20} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -440,11 +384,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/12ltkapal%C4%B1-kasa.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage21} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -462,11 +402,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/814133_1.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage22} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -485,11 +421,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/Ters_Osmoz_White_Aqua_Sebil.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage23} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
@@ -508,11 +440,7 @@ export default function ProductsContent() {
 
         <div className="ProductContentItem">
           <Card style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/urunler/8ltkapal%C4%B1-kasa.png"
-              height="200px"
-            />
+            <Card.Img variant="top" src={ProductImage24} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>

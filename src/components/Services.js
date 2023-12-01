@@ -1,5 +1,9 @@
 import { Button, Container, Row, Col } from "react-bootstrap";
 import { translateText } from "../components/translation";
+import ServiceImage1 from "../Images/service-1.png";
+import ServiceImage2 from "../Images/service-2.png";
+import ServiceImage3 from "../Images/service-3.png";
+import ServiceImage4 from "../Images/service-4.png";
 
 export default function Services() {
   return (
@@ -15,36 +19,16 @@ export default function Services() {
         <div style={{ padding: "0px 1rem 3rem" }}>
           <Row className="mt-3">
             <Col sm={6}>
-              <img
-                src="https://egesuaritmasistemleri.com/tema/genel/uploads/ikon3-1.png"
-                width="100%"
-                height="100%"
-                alt="01"
-              />
+              <img src={ServiceImage1} width="100%" height="100%" alt="01" />
             </Col>
             <Col sm={6}>
-              <img
-                src="https://egesuaritmasistemleri.com/tema/genel/uploads/ikon3-2.png"
-                width="100%"
-                height="100%"
-                alt="02"
-              />
+              <img src={ServiceImage2} width="100%" height="100%" alt="02" />
             </Col>
             <Col sm={6}>
-              <img
-                src="https://egesuaritmasistemleri.com/tema/genel/uploads/ikon3-3.png"
-                width="100%"
-                height="100%"
-                alt="03"
-              />
+              <img src={ServiceImage3} width="100%" height="100%" alt="03" />
             </Col>
             <Col sm={6}>
-              <img
-                src="https://egesuaritmasistemleri.com/tema/genel/uploads/ikon3-4.png"
-                width="100%"
-                height="100%"
-                alt="04"
-              />
+              <img src={ServiceImage4} width="100%" height="100%" alt="04" />
             </Col>
           </Row>
         </div>

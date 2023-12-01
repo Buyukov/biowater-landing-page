@@ -1,4 +1,7 @@
 import { translateText } from "../components/translation";
+import PhonoIcon from "../Images/PhoneIcon.png";
+import LocationIcon from "../Images/LocationIcon.png";
+import GmailIcon from "../Images/gmailIcon.png";
 
 export default function MobilContactContent() {
   return (
@@ -10,11 +13,7 @@ export default function MobilContactContent() {
       <div className="MobilConContainer" style={{ margin: "2rem" }}>
         <div className="MobilConItem">
           <div>
-            <img
-              src="https://i.pinimg.com/originals/84/4e/8c/844e8cd4ab26c82286238471f0e5a901.png"
-              height="60px"
-              alt=""
-            />
+            <img src={PhonoIcon} height="60px" alt="" />
           </div>
 
           <div style={{ marginTop: "1rem" }}>
@@ -28,11 +27,7 @@ export default function MobilContactContent() {
 
         <div className="MobilConItem">
           <div>
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/5962/5962750.png"
-              height="60px"
-              alt=""
-            />
+            <img src={LocationIcon} height="60px" alt="" />
           </div>
 
           <div style={{ marginTop: "1rem" }}>
@@ -46,11 +41,7 @@ export default function MobilContactContent() {
 
         <div className="MobilConItem">
           <div>
-            <img
-              src="https://static-00.iconduck.com/assets.00/gmail-icon-512x512-5ls3l61s.png"
-              height="60px"
-              alt=""
-            />
+            <img src={GmailIcon} height="60px" alt="" />
           </div>
 
           <div style={{ marginTop: "1rem" }}>

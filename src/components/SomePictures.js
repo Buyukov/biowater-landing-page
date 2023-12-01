@@ -1,6 +1,8 @@
 import "../App.css";
 import { Container, Row, Col } from "react-bootstrap";
 import WebLogo from "../Logo1.png";
+import SomePic from "../Images/SomePic-1.jpg";
+import SomePi2 from "../Images/somePic-2.jpg";
 
 export default function SomePictures() {
   return (
@@ -11,11 +13,7 @@ export default function SomePictures() {
             {/* <div class="flip-card"> */}
             {/* <div class="flip-card-inner"> */}
             {/* <div class="flip-card-front"> */}
-            <img
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/hakkimiza2-1.jpg"
-              alt="Avatar"
-              className="somePicImgStyle"
-            />
+            <img src={SomePic} alt="Avatar" className="somePicImgStyle" />
           </div>
           {/* <div class="flip-card-back"> */}
           {/* <img
@@ -37,11 +35,7 @@ export default function SomePictures() {
             {/* <div class="flip-card"> */}
             {/* <div class="flip-card-inner"> */}
             {/* <div class="flip-card-front"> */}
-            <img
-              src="https://egesuaritmasistemleri.com/tema/genel/uploads/hakkimiza2-2.jpg"
-              alt="Avatar"
-              className="somePicImgStyle"
-            />
+            <img src={SomePi2} alt="Avatar" className="somePicImgStyle" />
           </div>
           {/* <div class="flip-card-back">
             <img

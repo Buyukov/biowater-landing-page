@@ -1,5 +1,13 @@
 import { Container, Button } from "react-bootstrap";
 import { translateText } from "../components/translation";
+import ServicePageImag1 from "../Images/servicePage-1.png";
+import ServicePageImag2 from "../Images/servicePage-2.png";
+import ServicePageImag3 from "../Images/servicePage-3.png";
+import ServicePageImag4 from "../Images/servicePage-4.png";
+import ServicePageImag5 from "../Images/servicePage-5.png";
+import ServicePageImag6 from "../Images/servicePage-6.png";
+import ServicePageImag7 from "../Images/servicePage-7.png";
+import ServicePageImag8 from "../Images/servicePage-8.png";
 
 export default function ServicePageContent() {
   return (
@@ -7,12 +15,7 @@ export default function ServicePageContent() {
       <div className="kl">
         <Container>
           <div className="ServicePageContentStyle">
-            <img
-              src="https://egesuaritmasistemleri.com/uploads/files/kesif2.png"
-              width="190px"
-              height="180px"
-              alt="22"
-            />
+            <img src={ServicePageImag1} width="190px" height="180px" alt="22" />
             <h5 style={{ fontWeight: "bold" }}>
               {translateText().serviceHed1}
             </h5>
@@ -20,12 +23,7 @@ export default function ServicePageContent() {
           </div>
 
           <div className="ServicePageContentStyle">
-            <img
-              src="https://egesuaritmasistemleri.com/uploads/files/projelendirme2.png"
-              width="190px"
-              height="180px"
-              alt="22"
-            />
+            <img src={ServicePageImag2} width="190px" height="180px" alt="22" />
             <h5 style={{ fontWeight: "bold" }}>
               {translateText().serviceHed2}
             </h5>
@@ -35,12 +33,7 @@ export default function ServicePageContent() {
           </div>
 
           <div className="ServicePageContentStyle">
-            <img
-              src="https://egesuaritmasistemleri.com/uploads/files/uretim2.png"
-              width="190px"
-              height="180px"
-              alt="22"
-            />
+            <img src={ServicePageImag3} width="190px" height="180px" alt="22" />
             <h5 style={{ fontWeight: "bold" }}>
               {translateText().serviceHed3}
             </h5>
@@ -50,12 +43,7 @@ export default function ServicePageContent() {
           </div>
 
           <div className="ServicePageContentStyle">
-            <img
-              src="https://egesuaritmasistemleri.com/uploads/files/montaj2.png"
-              width="190px"
-              height="180px"
-              alt="22"
-            />
+            <img src={ServicePageImag4} width="190px" height="180px" alt="22" />
             <h5 style={{ fontWeight: "bold" }}>
               {translateText().serviceHed4}
             </h5>
@@ -65,12 +53,7 @@ export default function ServicePageContent() {
           </div>
 
           <div className="ServicePageContentStyle">
-            <img
-              src="https://egesuaritmasistemleri.com/uploads/files/periyodikbakim2.png"
-              width="190px"
-              height="180px"
-              alt="22"
-            />
+            <img src={ServicePageImag5} width="190px" height="180px" alt="22" />
             <h5 style={{ fontWeight: "bold" }}>
               {translateText().serviceHed5}
             </h5>
@@ -80,12 +63,7 @@ export default function ServicePageContent() {
           </div>
 
           <div className="ServicePageContentStyle">
-            <img
-              src="https://egesuaritmasistemleri.com/uploads/files/7-24servis2.png"
-              width="190px"
-              height="180px"
-              alt="22"
-            />
+            <img src={ServicePageImag6} width="190px" height="180px" alt="22" />
             <h5 style={{ fontWeight: "bold" }}>
               {translateText().serviceHed6}
             </h5>
@@ -95,12 +73,7 @@ export default function ServicePageContent() {
           </div>
 
           <div className="ServicePageContentStyle">
-            <img
-              src="https://egesuaritmasistemleri.com/uploads/files/Kimyasaltedarigi3.png"
-              width="190px"
-              height="180px"
-              alt="22"
-            />
+            <img src={ServicePageImag7} width="190px" height="180px" alt="22" />
             <h5 style={{ fontWeight: "bold" }}>
               {translateText().serviceHed7}
             </h5>
@@ -110,15 +83,11 @@ export default function ServicePageContent() {
           </div>
 
           <div className="ServicePageContentStyle">
-            <img
-              src="https://egesuaritmasistemleri.com/uploads/files/yedekparca2.png"
-              width="190px"
-              height="180px"
-              alt="22"
-            />
+            <img src={ServicePageImag8} width="228px" height="180px" alt="22" />
             <h5 style={{ fontWeight: "bold" }}>
               {translateText().serviceHed8}
             </h5>
+
             <p>
               <p>{translateText().service8}</p>
             </p>

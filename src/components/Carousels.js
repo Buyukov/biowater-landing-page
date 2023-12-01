@@ -1,16 +1,16 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import CarouselPhoto1 from "../Images/CarouselPhoto-1.png";
+import CarouselPhoto2 from "../Images/CarouselPhoto-2.png";
+import CarouselPhoto3 from "../Images/CarouselPhoto-3.png";
+import CarouselPhoto4 from "../Images/CarouselPhoto-4.png";
 
 export default function Carousels() {
   return (
     // <Container>
     <Carousel className="mb-2">
       <Carousel.Item interval={1000}>
-        <img
-          className="d-block w-100"
-          src="https://egesuaritmasistemleri.com/tema/genel/uploads/slider/slider3.png"
-          alt="First slide"
-        />
+        <img className="d-block w-100" src={CarouselPhoto1} alt="First slide" />
         <Carousel.Caption>
           <h3></h3>
           <p></p>
@@ -20,7 +20,7 @@ export default function Carousels() {
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src="https://egesuaritmasistemleri.com/tema/genel/uploads/slider/slider1.png"
+          src={CarouselPhoto2}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -29,11 +29,7 @@ export default function Carousels() {
       </Carousel.Item>
 
       <Carousel.Item interval={1000}>
-        <img
-          className="d-block w-100"
-          src="https://egesuaritmasistemleri.com/tema/genel/uploads/slider/slider4.png"
-          alt="Third slide"
-        />
+        <img className="d-block w-100" src={CarouselPhoto3} alt="Third slide" />
         <Carousel.Caption>
           <h3></h3>
           <p></p>
@@ -41,11 +37,7 @@ export default function Carousels() {
       </Carousel.Item>
 
       <Carousel.Item interval={1000}>
-        <img
-          className="d-block w-100"
-          src="https://egesuaritmasistemleri.com/tema/genel/uploads/slider/slider2.png"
-          alt="Third slide"
-        />
+        <img className="d-block w-100" src={CarouselPhoto4} alt="Third slide" />
         <Carousel.Caption>
           <h3></h3>
           <p></p>
