@@ -3,6 +3,9 @@ import Modals from "../components/modal";
 import { translateText, editLanguage } from "../components/translation";
 import React from "react";
 import WebLogo from "../Logo1.png";
+import RussianFlag from "../Images/RussianFlag.png";
+import TurkishFlag from "../Images/TurkishFlag.png";
+import UzbekFlag from "../Images/UzbekFlag.webp";
 
 export default function Navigation() {
   return (
@@ -90,7 +93,7 @@ export default function Navigation() {
           <span>
             <img
               className="marginRight-1Rem"
-              src="https://cdn-icons-png.flaticon.com/512/555/555451.png"
+              src={RussianFlag}
               width="40px"
               alt="ru"
               onClick={editLanguage}
@@ -98,7 +101,7 @@ export default function Navigation() {
 
             <img
               className="marginRight-1Rem"
-              src="https://cdn.countryflags.com/thumbs/turkey/flag-400.png"
+              src={TurkishFlag}
               width="40px"
               alt="turk"
               onClick={editLanguage}
@@ -106,7 +109,7 @@ export default function Navigation() {
 
             <img
               className="s1"
-              src="https://cdn.iconscout.com/icon/free/png-256/free-uzbekistan-flag-country-nation-union-empire-33141.png"
+              src={UzbekFlag}
               width="40px"
               alt="uz"
               onClick={editLanguage}
