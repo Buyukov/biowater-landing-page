@@ -9,36 +9,39 @@ import Referense6 from "../Images/referense-6.png";
 export default function ProductTypes() {
   return (
     <Container className="mt-5 pb-5">
-      <div className="ImageWrapper">
-        <div className="ImageWrapperItem itemss">
-          {/* <a href="References"> */}
-          <img src={Referense1} alt="" width="100%" />
-          {/* </a> */}
-        </div>
-        <div className="ImageWrapperItem itemss">
-          {/* <a href="References"> */}
-          <img src={Referense2} alt="" width="100%" />
-          {/* </a> */}
-        </div>
-        <div className="ImageWrapperItem itemss">
-          {/* <a href="References"> */}
-          <img src={Referense3} alt="" width="100%" />
-          {/* </a> */}
-        </div>
-        <div className="ImageWrapperItem itemss">
-          {/* <a href="References"> */}
-          <img src={Referense4} alt="" width="100%" />
-          {/* </a> */}
-        </div>
-        <div className="ImageWrapperItem itemss">
-          {/* <a href="References"> */}
-          <img src={Referense5} alt="" width="100%" />
-          {/* </a> */}
-        </div>
-        <div className="ImageWrapperItem itemss">
-          {/* <a href="References"> */}
-          <img src={Referense6} alt="" width="100%" />
-          {/* </a> */}
+      <div className="Dilshod">
+        <div className="ImageWrapper">
+          <div className="ImageWrapperItem itemss">
+            {/* <a href="References"> */}
+            <img src={Referense1} alt="" width="100%" />
+            {/* </a> */}
+          </div>
+
+          <div className="ImageWrapperItem itemss">
+            {/* <a href="References"> */}
+            <img src={Referense2} alt="" width="100%" />
+            {/* </a> */}
+          </div>
+          <div className="ImageWrapperItem itemss">
+            {/* <a href="References"> */}
+            <img src={Referense3} alt="" width="100%" />
+            {/* </a> */}
+          </div>
+          <div className="ImageWrapperItem itemss">
+            {/* <a href="References"> */}
+            <img src={Referense4} alt="" width="100%" />
+            {/* </a> */}
+          </div>
+          <div className="ImageWrapperItem itemss">
+            {/* <a href="References"> */}
+            <img src={Referense5} alt="" width="100%" />
+            {/* </a> */}
+          </div>
+          <div className="ImageWrapperItem itemss">
+            {/* <a href="References"> */}
+            <img src={Referense6} alt="" width="100%" />
+            {/* </a> */}
+          </div>
         </div>
       </div>
     </Container>

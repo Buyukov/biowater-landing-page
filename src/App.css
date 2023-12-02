@@ -410,10 +410,25 @@
   max-width: 100%;
   border: none;
   display: flex;
-  overflow: auto;
+  overflow: hidden;
   /* border-top-right-radius: 0.5rem;
   border-top-left-radius: 0.5rem; */
   border-radius: 0.5rem;
+}
+
+.itemss {
+  white-space: nowrap;
+  margin: 5px 0 0 0;
+  animation: animation 4.5s linear alternate infinite;
+}
+
+@keyframes animation {
+  0% {
+    transform: translateX(5%);
+  }
+  100% {
+    transform: translateX(-90%);
+  }
 }
 
 .ImageWrapper::-webkit-scrollbar {
