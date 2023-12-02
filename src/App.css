@@ -423,10 +423,15 @@
 
 .ImageWrapperItem {
   min-width: 300px;
-  height: 160px;
+  height: auto;
   line-height: 110px;
   text-align: center;
   background-color: #ddd;
   margin-right: 23px;
 }
 /*///////////////////////////////////////////////////////////////////////////////////*/
+
+.FooterLogoStyle {
+  background-color: #fff;
+  border-radius: 0.4rem;
+}

@@ -14,6 +14,7 @@ export default function Footer() {
                 <img
                   src={WebLogo}
                   alt="footerLogo"
+                  className="FooterLogoStyle"
                   style={{
                     margin: "1rem",
                     width: "60%",

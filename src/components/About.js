@@ -7,7 +7,7 @@ export default function About() {
     <div className="maintitle marginTop-5rem">
       <Container className="mb-5 mt-3">
         <Row className="">
-          <Col sm={7}>
+          <Col sm={7} style={{ display: "flex", alignItems: "center" }}>
             <img
               // className="padding-7rem"
               src={WebLogo}
