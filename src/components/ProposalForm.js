@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { translateText } from "./translation";
 import PropsonalPhoto from "../Images/PropsonalPhoto.png";
+import { handleSubmit } from "../components/form";
 
 export default function ProposalForm() {
   return (
@@ -26,18 +27,16 @@ export default function ProposalForm() {
                   <h2>{translateText().propForm1}</h2>
                 </Col>
 
-                <form>
+                <form onSubmit={handleSubmit}>
                   <Col sm={12}>
                     <div>
-                      <label for="first_name">
-                        {translateText().propForm2}
-                      </label>
+                      <label for="full_name">{translateText().propForm2}</label>
                     </div>
                     <input
                       type="text"
-                      id="first_name"
-                      name="first_name"
-                      placeholder="Name"
+                      id="full_name"
+                      name="full_name"
+                      placeholder="Full name"
                       autofocus
                       className="propsonalInputStyle"
                     ></input>
@@ -85,7 +84,9 @@ export default function ProposalForm() {
                     ></textarea>
 
                     <div>
-                      <input type="Submit" className="propSubmitButtonStyle" />
+                      <button type="submit" className="propSubmitButtonStyle">
+                        Jo'natish
+                      </button>
                     </div>
                   </Col>
                 </form>
