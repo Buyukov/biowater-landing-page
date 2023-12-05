@@ -25,7 +25,7 @@ export default function MobilContactContent() {
           </div>
         </div>
 
-        <div className="MobilConItem">
+        {/* <div className="MobilConItem">
           <div>
             <img src={LocationIcon} height="60px" alt="" />
           </div>
@@ -37,7 +37,7 @@ export default function MobilContactContent() {
           <div>
             <p style={{ color: "grey" }}></p>
           </div>
-        </div>
+        </div> */}
 
         <div className="MobilConItem">
           <div>
