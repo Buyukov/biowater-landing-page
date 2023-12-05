@@ -16,7 +16,7 @@ let RussianLan = {
   package: "Услуги",
 
   propForm1: "Форма предложения",
-  propForm2: "имя",
+  propForm2: "Имя",
   propForm3: "Номер телефона",
   propForm4: "Адрес электронной почты",
   propForm5: "Объяснение",
