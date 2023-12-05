@@ -85,7 +85,7 @@ export default function ProposalForm() {
 
                     <div>
                       <button type="submit" className="propSubmitButtonStyle">
-                        Jo'natish
+                      {translateText().sendButton}
                       </button>
                     </div>
                   </Col>

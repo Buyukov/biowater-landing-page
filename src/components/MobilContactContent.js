@@ -21,7 +21,7 @@ export default function MobilContactContent() {
           </div>
 
           <div>
-            <p style={{ color: "grey" }}>+99899 999 99 99</p>
+            <p style={{ color: "grey" }}>+998 99 126 28 28</p>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ export default function MobilContactContent() {
           </div>
 
           <div>
-            <p style={{ color: "grey" }}>Jizzax Shaxar</p>
+            <p style={{ color: "grey" }}></p>
           </div>
         </div>
 
@@ -45,11 +45,11 @@ export default function MobilContactContent() {
           </div>
 
           <div style={{ marginTop: "1rem" }}>
-            <p style={{ color: "grey" }}>GMAIL</p>
+            <p style={{ color: "grey" }}>{translateText().footerLan6}</p>
           </div>
 
           <div>
-            <p style={{ color: "grey" }}>GMAIL@GMAIL.COM</p>
+            <p style={{ color: "grey" }}>biowateruz@outlook.com</p>
           </div>
         </div>
       </div>

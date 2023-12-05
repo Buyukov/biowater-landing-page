@@ -91,6 +91,8 @@ let RussianLan = {
   ProductsContetWords19: "Бытовая техника 12 LT с закрытым корпусом",
 
   ContactForBuy: "Контакт для покупки",
+  workingDays: "Понедельник - Пятница:",
+  sendButton: "Oтправлять",
 };
 
 let TurkishLan = {
@@ -186,6 +188,8 @@ let TurkishLan = {
   ProductsContetWords19: "Ev aletleri 12 LT kapalı gövdeli",
 
   ContactForBuy: "Satın almak için iletişime geçin",
+  workingDays: "Pazartesi - Cuma:",
+  sendButton: "Göndermek",
 };
 
 let UzbekLan = {
@@ -281,6 +285,8 @@ let UzbekLan = {
   ProductsContetWords19: "12 LT yopiq korpusli maishiy texnika",
 
   ContactForBuy: "Sotib olish uchun murojaat qiling",
+  workingDays: "Dushanba - Juma:",
+  sendButton: "Yubormoq",
 };
 
 function translateText() {

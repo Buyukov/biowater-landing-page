@@ -69,26 +69,26 @@ export default function Footer() {
               <p></p>
             </div>
 
-            <div>
+            {/* <div>
               <h4>{translateText().footerLan3}</h4>
               <p>
                 Toshkent shahri, Yashnobod tumani, Parvoz MFY, 1 - Aviasozlar
               </p>
-            </div>
+            </div> */}
 
             <div>
               <h4>{translateText().footerLan4}</h4>
-              <p>Dushanba - Juma: 09:00 - 18:00</p>
+              <p>{translateText().workingDays} 09:00 - 18:00</p>
             </div>
 
             <div>
               <h4>{translateText().footerLan5}</h4>
-              <p>+998901234567</p>
+              <p>+998 99 126 28 28</p>
             </div>
 
             <div>
               <h4>{translateText().footerLan6}</h4>
-              <p>biowater@gmail.com</p>
+              <p>biowateruz@outlook.com</p>
             </div>
           </Col>
         </Row>
