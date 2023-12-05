@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e34d3b6d.css",
-    "main.js": "/static/js/main.20428b71.js",
+    "main.css": "/static/css/main.bf4fb97e.css",
+    "main.js": "/static/js/main.728d6e47.js",
     "static/js/651.1b2a341c.chunk.js": "/static/js/651.1b2a341c.chunk.js",
     "static/media/product-11.jpg": "/static/media/product-11.d619a0dc10ec64f14ff3.jpg",
     "static/media/product-9.jpg": "/static/media/product-9.d619a0dc10ec64f14ff3.jpg",
@@ -12,13 +12,9 @@
     "static/media/CarouselPhoto-3.png": "/static/media/CarouselPhoto-3.896b7be3f4602747aee8.png",
     "static/media/CarouselPhoto-1.png": "/static/media/CarouselPhoto-1.15c34ed5e35f4b50a9ec.png",
     "static/media/CarouselPhoto-2.png": "/static/media/CarouselPhoto-2.7f91720f210cad757088.png",
-    "static/media/service-4.png": "/static/media/service-4.b0e938049a0963d8ff83.png",
-    "static/media/service-1.png": "/static/media/service-1.a57ef7989dc413b96885.png",
-    "static/media/service-3.png": "/static/media/service-3.fcd3fc46a6990070c4a5.png",
     "static/media/product-10.jpg": "/static/media/product-10.d8095b65d85e8b092008.jpg",
     "static/media/product-24.png": "/static/media/product-24.1854adc4dc29eab8089b.png",
     "static/media/product-21.png": "/static/media/product-21.373ffe4cbdc547a9260e.png",
-    "static/media/service-2.png": "/static/media/service-2.fcbfd32dc8839618a555.png",
     "static/media/product-3.jpg": "/static/media/product-3.e26939784cf6d725b8f5.jpg",
     "static/media/product-18.jpg": "/static/media/product-18.0d01d4a07c6cd87dc9d4.jpg",
     "static/media/product-20.png": "/static/media/product-20.14effc55ace5707a7a83.png",
@@ -58,12 +54,12 @@
     "static/media/LocationIcon.png": "/static/media/LocationIcon.c7b0df230c961464eca9.png",
     "static/media/UzbekFlag.webp": "/static/media/UzbekFlag.c12a0dd84802b2cbbcbc.webp",
     "index.html": "/index.html",
-    "main.e34d3b6d.css.map": "/static/css/main.e34d3b6d.css.map",
-    "main.20428b71.js.map": "/static/js/main.20428b71.js.map",
+    "main.bf4fb97e.css.map": "/static/css/main.bf4fb97e.css.map",
+    "main.728d6e47.js.map": "/static/js/main.728d6e47.js.map",
     "651.1b2a341c.chunk.js.map": "/static/js/651.1b2a341c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e34d3b6d.css",
-    "static/js/main.20428b71.js"
+    "static/css/main.bf4fb97e.css",
+    "static/js/main.728d6e47.js"
   ]
 }
