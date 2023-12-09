@@ -30,7 +30,7 @@ export default function ProductsContent() {
     <Container>
       <div className="ProductContentContainer">
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage1} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -48,12 +48,12 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage2} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
-                MBR Systems - Mbr2 <br /> <br />
+                MBR {translateText().systems} - Mbr2 <br /> <br />
               </Card.Text>
             </Card.Body>
 
@@ -66,12 +66,12 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage3} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
               <Card.Text>
-                MBR Systems - Mmbr1 <br />
+                MBR {translateText().systems} - Mmbr1 <br />
                 <br />
               </Card.Text>
             </Card.Body>
@@ -85,7 +85,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage4} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -100,7 +100,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage5} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -115,7 +115,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage6} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -130,7 +130,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage7} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -145,7 +145,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage8} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -164,7 +164,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage9} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -182,7 +182,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage10} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -200,7 +200,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage11} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -218,7 +218,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage12} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -236,7 +236,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage13} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -254,7 +254,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage14} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -272,7 +272,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage15} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -290,7 +290,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage16} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -308,7 +308,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage17} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -326,7 +326,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage18} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -344,7 +344,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage19} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -363,7 +363,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage20} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -382,7 +382,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage21} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -400,7 +400,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage22} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -419,7 +419,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage23} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
@@ -438,7 +438,7 @@ export default function ProductsContent() {
         </div>
 
         <div className="ProductContentItem">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", height: "22rem" }}>
             <Card.Img variant="top" src={ProductImage24} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}

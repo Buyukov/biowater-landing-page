@@ -93,6 +93,7 @@ let RussianLan = {
   ContactForBuy: "Контакт для покупки",
   workingDays: "Понедельник - Пятница:",
   sendButton: "Oтправлять",
+  systems: "Системы",
 };
 
 let TurkishLan = {
@@ -190,6 +191,7 @@ let TurkishLan = {
   ContactForBuy: "Satın almak için iletişime geçin",
   workingDays: "Pazartesi - Cuma:",
   sendButton: "Göndermek",
+  systems: "Sistemler",
 };
 
 let UzbekLan = {
@@ -287,6 +289,7 @@ let UzbekLan = {
   ContactForBuy: "Sotib olish uchun murojaat qiling",
   workingDays: "Dushanba - Juma:",
   sendButton: "Yubormoq",
+  systems: "Tizimlar",
 };
 
 function translateText() {
