@@ -1,8 +1,8 @@
 import "../App.css";
 import { Container, Row, Col } from "react-bootstrap";
 import WebLogo from "../Logo1.png";
-import SomePic from "../Images/SomePic-1.jpg";
-import SomePi2 from "../Images/somePic-2.jpg";
+import SomePic from "../Images/SomePic-1.webp";
+import SomePi2 from "../Images/somePic-2.webp";
 
 export default function SomePictures() {
   return (

@@ -6,6 +6,7 @@ import WebLogo from "../Logo1.png";
 import RussianFlag from "../Images/RussianFlag.png";
 import TurkishFlag from "../Images/TurkishFlag.png";
 import UzbekFlag from "../Images/UzbekFlag.webp";
+import { NavLink } from "react-router-dom";
 
 export default function Navigation() {
   return (
@@ -16,7 +17,7 @@ export default function Navigation() {
       {/* <Container fluid> */}
 
       <div className="nLogo">
-        <Navbar.Brand href="/">
+        <Navbar.Brand  as={NavLink} to="/">
           <img src={WebLogo} width="120px" alt="Logo" />
         </Navbar.Brand>
       </div>
@@ -29,7 +30,8 @@ export default function Navigation() {
           navbarScroll
         >
           <Nav.Link
-            href="/"
+            as={NavLink}
+            to="/"
             style={{ display: "flex", alignItems: "center" }}
             className="fontSize13px"
           >
@@ -37,7 +39,8 @@ export default function Navigation() {
           </Nav.Link>
 
           <Nav.Link
-            href="aboutUs"
+            as={NavLink}
+            to="/about"
             id="padding-left-3rem"
             style={{ display: "flex", alignItems: "center" }}
             className="fontSize13px"
@@ -46,7 +49,8 @@ export default function Navigation() {
           </Nav.Link>
 
           <Nav.Link
-            href="Procuts"
+            as={NavLink}
+            to="/products"
             id="padding-left-3rem"
             style={{ display: "flex", alignItems: "center" }}
             className="fontSize13px"
@@ -63,7 +67,8 @@ export default function Navigation() {
           </Nav.Link> */}
 
           <Nav.Link
-            href="services"
+            as={NavLink}
+            to="/services"
             style={{ display: "flex", alignItems: "center" }}
             className="fontSize13px"
           >
@@ -71,7 +76,8 @@ export default function Navigation() {
           </Nav.Link>
 
           <Nav.Link
-            href="MobilRaqam"
+            as={NavLink}
+            to="/contact"
             style={{ display: "flex", alignItems: "center" }}
             className="fontSize13px"
           >

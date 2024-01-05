@@ -1,9 +1,9 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import CarouselPhoto1 from "../Images/CarouselPhoto-1.png";
-import CarouselPhoto2 from "../Images/CarouselPhoto-2.png";
-import CarouselPhoto3 from "../Images/CarouselPhoto-3.png";
-import CarouselPhoto4 from "../Images/CarouselPhoto-4.png";
+import CarouselPhoto1 from "../Images/CarouselPhoto-1.webp";
+import CarouselPhoto2 from "../Images/CarouselPhoto-2.webp";
+import CarouselPhoto3 from "../Images/CarouselPhoto-3.webp";
+import CarouselPhoto4 from "../Images/CarouselPhoto-4.webp";
 
 export default function Carousels() {
   return (

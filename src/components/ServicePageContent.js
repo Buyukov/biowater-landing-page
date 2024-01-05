@@ -8,6 +8,7 @@ import ServicePageImag5 from "../Images/servicePage-5.png";
 import ServicePageImag6 from "../Images/servicePage-6.png";
 import ServicePageImag7 from "../Images/servicePage-7.png";
 import ServicePageImag8 from "../Images/servicePage-8.png";
+import { NavLink } from "react-router-dom";
 
 export default function ServicePageContent() {
   return (
@@ -92,7 +93,7 @@ export default function ServicePageContent() {
               <p>{translateText().service8}</p>
             </p>
           </div>
-          <Button href="/" className="mb-5">
+          <Button as={NavLink} to="/" className="mb-5">
             {translateText().ReferencesBackHomeButton}
           </Button>
         </Container>

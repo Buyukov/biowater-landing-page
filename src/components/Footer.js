@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { translateText } from "../components/translation";
 import WebLogo from "../Logo1.png";
+import { NavLink } from "react-router-dom";
 // import React from "react";
 
 export default function Footer() {
@@ -10,7 +11,7 @@ export default function Footer() {
         <Row>
           <Col sm={5}>
             <div>
-              <a href="/">
+              <NavLink to="/">
                 <img
                   src={WebLogo}
                   alt="footerLogo"
@@ -20,7 +21,7 @@ export default function Footer() {
                     width: "60%",
                   }}
                 />
-              </a>
+              </NavLink>
             </div>
             <div>
               <p style={{ margin: "1rem" }}>{translateText().footerFor}</p>

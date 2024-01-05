@@ -1,6 +1,7 @@
-import { Row, Container, Col, Button } from "react-bootstrap";
+import { Row, Container, Col, Button, Image } from "react-bootstrap";
 import { translateText } from "../components/translation";
 import WebLogo from "../Logo1.png";
+import { NavLink } from "react-router-dom";
 
 export default function About() {
   return (
@@ -8,12 +9,12 @@ export default function About() {
       <Container className="mb-5 mt-3">
         <Row className="">
           <Col sm={7} style={{ display: "flex", alignItems: "center" }}>
-            <img
+            <Image
               // className="padding-7rem"
               src={WebLogo}
               width="100%"
               alt="AboutUsImg"
-              fluid
+              fluid 
               rounded
             />
           </Col>
@@ -23,7 +24,7 @@ export default function About() {
               {translateText().AboutUsHeading}
             </h1>
             <p>{translateText().ForAbout}</p>
-            <Button variant="outline-primary" href="AboutUs">
+            <Button variant="outline-primary" as={NavLink} to="/about">
               {translateText().viewAll}
             </Button>
           </Col>

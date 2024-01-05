@@ -1,6 +1,7 @@
 import { Container, Button } from "react-bootstrap";
 import "../App.css";
 import { translateText } from "../components/translation";
+import { NavLink } from "react-router-dom";
 
 export default function ReferencesContent() {
   return (
@@ -178,7 +179,7 @@ export default function ReferencesContent() {
                 alt="ReferencesImg23"
               />
             </div>
-            <Button href="/">{translateText().ReferencesBackHomeButton}</Button>
+            <Button as={NavLink} to="/">{translateText().ReferencesBackHomeButton}</Button>
           </div>
         </Container>
       </div>

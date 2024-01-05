@@ -30,19 +30,19 @@ export default function ProposalForm() {
                 <form onSubmit={handleSubmit}>
                   <Col sm={12}>
                     <div>
-                      <label for="full_name">{translateText().propForm2}</label>
+                      <label htmlFor="full_name">{translateText().propForm2}</label>
                     </div>
                     <input
                       type="text"
                       id="full_name"
                       name="full_name"
                       placeholder="Full name"
-                      autofocus
+                      autoFocus
                       className="propsonalInputStyle"
                     ></input>
 
                     <div>
-                      <label for="Phone" style={{ paddingTop: "0.5rem" }}>
+                      <label htmlFor="Phone" style={{ paddingTop: "0.5rem" }}>
                         {translateText().propForm3}
                       </label>
                     </div>
@@ -56,7 +56,7 @@ export default function ProposalForm() {
                   </Col>
                   <Col sm={12}>
                     <div>
-                      <label for="email" style={{ paddingTop: "0.5rem" }}>
+                      <label htmlFor="email" style={{ paddingTop: "0.5rem" }}>
                         {translateText().propForm4}
                       </label>
                     </div>
@@ -70,7 +70,7 @@ export default function ProposalForm() {
                   </Col>
                   <Col>
                     <div>
-                      <label for="textArea" style={{ paddingTop: "0.5rem" }}>
+                      <label htmlFor="textArea" style={{ paddingTop: "0.5rem" }}>
                         {translateText().propForm5}
                       </label>
                     </div>

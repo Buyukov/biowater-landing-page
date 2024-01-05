@@ -1,14 +1,10 @@
 import React from "react";
-import Navigation from "../components/Nav";
-import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
 
 export default function AboutUsPage() {
   return (
-    <div>
-      <Navigation />
+    <div className="min-vh-100 pt-5">
       <AboutUs />
-      <Footer />
     </div>
   );
 }
