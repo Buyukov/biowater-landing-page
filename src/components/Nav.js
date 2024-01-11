@@ -1,6 +1,6 @@
 import { Navbar, Nav, NavDropdown, Form, Button } from "react-bootstrap";
 import Modals from "../components/modal";
-import { translateText, editLanguage } from "../components/translation";
+import { translateText, editLanguage } from "../helpers/translation";
 import React from "react";
 import WebLogo from "../Logo1.png";
 import RussianFlag from "../Images/RussianFlag.png";

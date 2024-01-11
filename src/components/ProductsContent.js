@@ -1,5 +1,5 @@
 import { Container, Card, ListGroup } from "react-bootstrap";
-import { translateText } from "../components/translation";
+import { translateText } from "../helpers/translation";
 import ProductImage1 from "../Images/product-1.jpg";
 import ProductImage2 from "../Images/product-2.jpg";
 import ProductImage3 from "../Images/product-3.jpg";

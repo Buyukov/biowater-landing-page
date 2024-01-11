@@ -1,5 +1,5 @@
 import { Row, Container, Col, Button, Image } from "react-bootstrap";
-import { translateText } from "../components/translation";
+import { translateText } from "../helpers/translation";
 import WebLogo from "../Logo1.png";
 import { NavLink } from "react-router-dom";
 

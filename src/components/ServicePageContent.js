@@ -1,5 +1,5 @@
 import { Container, Button } from "react-bootstrap";
-import { translateText } from "../components/translation";
+import { translateText } from "../helpers/translation";
 import ServicePageImag1 from "../Images/servicePage-1.png";
 import ServicePageImag2 from "../Images/servicePage-2.png";
 import ServicePageImag3 from "../Images/servicePage-3.png";

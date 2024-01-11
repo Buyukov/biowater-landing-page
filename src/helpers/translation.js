@@ -33,7 +33,14 @@ let RussianLan = {
   footerLan7:
     "© 2023. Все права защищены. В случае копирования, воспроизведения и распространения наши законные права будут реализованы.",
   footerLan8: "Географическое положение",
-
+  footerLan9: "Банковские реквизиты",
+  footerLan10: "СТИР",
+  footerLan11: "ОКЭД",
+  footerLan12: "Х/Р",
+  footerLan13: "Банк",
+  footerLan14: "МФО",
+  bank: "«Капиталбанк» В штаб-квартире",
+  address: "Адрес г.Ташкент, Яшнабадский р-н Парвоз МФЙ 1-Авиасозлар мавзеси 65-уй",
   serviceHed1: "ОБСУЖДЕНИЕ",
   service1:
     "Очень важно, чтобы технико-экономическое обоснование на предприятиях было выполнено правильно. При этом должны быть определены суточные и часовые расходы воды, показатели анализа сырой воды и эксплуатационные данные существующей системы. На предприятие выезжают наши инженеры и бесплатно проводят технико-экономическое обоснование.",
@@ -131,6 +138,14 @@ let TurkishLan = {
   footerLan7:
     "© 2023. Tüm hakları saklıdır. Kopyalanması, çoğaltılması ve dağıtılması halinde yasal haklarımız kullanılacaktır.",
   footerLan8: "Coğrafi konum",
+  footerLan9: "Banka detayları",
+  footerLan10: "STIR",
+  footerLan11: "OKED",
+  footerLan12: "X/R",
+  footerLan13: "Banka",
+  footerLan14: "MFI",
+  bank: "«Kapitalbank» АS Merkez ofis",
+  address: "Adres g.Taşkent, Aşkhabadsky r-n uçuşu 1 mayıs-Hava Üssü türbe evi 65",
 
   serviceHed1: "TARTIŞMA",
   service1:
@@ -229,7 +244,14 @@ let UzbekLan = {
   footerLan7:
     "© 2023. Barcha huquqlar himoyalangan. Nusxa ko'chirish, ko'paytirish va tarqatishda bizning qonuniy huquqlarimiz amalga oshiriladi.",
   footerLan8: "Geografik Joylashuv",
-
+  footerLan9: "Bank ma'lumotlari",
+  footerLan10: "STIR",
+  footerLan11: "OKED",
+  footerLan12: "X/R",
+  footerLan13: "Bank",
+  footerLan14: "MFO",
+  bank: "«Kapitalbank» AJ Bosh ofisi",
+  address: "Adres g.Tashkent, Ashxabadskiy r-n parvoz may 1-Aviasozlar mavzesi 65-uy",
   serviceHed1: "MUHOKAZA",
   service1:
     "Korxonalarda texnik-iqtisodiy asoslarni to'g'ri bajarish juda muhimdir. Bunday holda, kunlik va soatlik suv oqimi tezligi, xom suvni tahlil qilish ko'rsatkichlari va mavjud tizimning operatsion ma'lumotlari aniqlanishi kerak. Bizning muhandislarimiz korxonaga tashrif buyurib, bepul texnik-iqtisodiy asoslash ishlarini olib boradilar.",

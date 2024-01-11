@@ -1,6 +1,6 @@
 import { Container, Button } from "react-bootstrap";
 import "../App.css";
-import { translateText } from "../components/translation";
+import { translateText } from "../helpers/translation";
 import { NavLink } from "react-router-dom";
 
 export default function ReferencesContent() {

@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import { Container } from "react-bootstrap";
-import { translateText } from "../components/translation";
+import { translateText } from "../helpers/translation";
 
 export default function AboutUs() {
   return (

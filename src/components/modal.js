@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import { translateText } from "../components/translation";
+import { translateText } from "../helpers/translation";
 
 export default function Example() {
   const [smShow, setSmShow] = useState(false);

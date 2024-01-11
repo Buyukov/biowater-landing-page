@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { translateText } from "./translation";
+import { translateText } from "../helpers/translation";
 import PropsonalPhoto from "../Images/PropsonalPhoto.png";
 import { handleSubmit } from "../components/form";
 

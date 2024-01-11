@@ -1,4 +1,4 @@
-import { translateText } from "../components/translation";
+import { translateText } from "../helpers/translation";
 import PhonoIcon from "../Images/PhoneIcon.png";
 import LocationIcon from "../Images/LocationIcon.png";
 import GmailIcon from "../Images/gmailIcon.png";
