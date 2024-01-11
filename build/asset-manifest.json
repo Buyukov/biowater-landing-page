@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.bf4fb97e.css",
-    "main.js": "/static/js/main.245a545e.js",
+    "main.js": "/static/js/main.d717f5f6.js",
     "static/js/651.1b2a341c.chunk.js": "/static/js/651.1b2a341c.chunk.js",
     "static/media/product-11.jpg": "/static/media/product-11.d619a0dc10ec64f14ff3.jpg",
     "static/media/product-9.jpg": "/static/media/product-9.d619a0dc10ec64f14ff3.jpg",
     "static/media/product-8.jpg": "/static/media/product-8.548349a2183d9d171605.jpg",
-    "static/media/CarouselPhoto-4.png": "/static/media/CarouselPhoto-4.efadf61d113a08daf8ef.png",
     "static/media/product-7.png": "/static/media/product-7.6aeb128bfe3976ef4bfc.png",
     "static/media/product-4.jpg": "/static/media/product-4.882ff2289c9021de5554.jpg",
-    "static/media/CarouselPhoto-3.png": "/static/media/CarouselPhoto-3.896b7be3f4602747aee8.png",
-    "static/media/CarouselPhoto-1.png": "/static/media/CarouselPhoto-1.15c34ed5e35f4b50a9ec.png",
-    "static/media/CarouselPhoto-2.png": "/static/media/CarouselPhoto-2.7f91720f210cad757088.png",
+    "static/media/CarouselPhoto-4.webp": "/static/media/CarouselPhoto-4.4281a4a312fc9d08d599.webp",
     "static/media/product-10.jpg": "/static/media/product-10.d8095b65d85e8b092008.jpg",
     "static/media/product-24.png": "/static/media/product-24.1854adc4dc29eab8089b.png",
     "static/media/product-21.png": "/static/media/product-21.373ffe4cbdc547a9260e.png",
+    "static/media/CarouselPhoto-1.webp": "/static/media/CarouselPhoto-1.850ac2f5087d5f2113d3.webp",
+    "static/media/CarouselPhoto-3.webp": "/static/media/CarouselPhoto-3.5914fbadf42ef7f029f2.webp",
     "static/media/product-3.jpg": "/static/media/product-3.e26939784cf6d725b8f5.jpg",
     "static/media/product-18.jpg": "/static/media/product-18.0d01d4a07c6cd87dc9d4.jpg",
+    "static/media/CarouselPhoto-2.webp": "/static/media/CarouselPhoto-2.78af6ce2e8188de5a004.webp",
     "static/media/product-20.png": "/static/media/product-20.14effc55ace5707a7a83.png",
     "static/media/product-22.png": "/static/media/product-22.d6708d96d8e4171bea82.png",
     "static/media/product-19.png": "/static/media/product-19.f1ea559a30873cef3400.png",
@@ -29,10 +29,10 @@
     "static/media/contactImage.jpg": "/static/media/contactImage.5a9ae6236b90252bab91.jpg",
     "static/media/Logo1.png": "/static/media/Logo1.47b74fe72978410e1c1c.png",
     "static/media/product-6.jpg": "/static/media/product-6.bc0468ae6eae6e7bda77.jpg",
+    "static/media/somePic-2.webp": "/static/media/somePic-2.c7a82217cffd461a528a.webp",
+    "static/media/SomePic-1.webp": "/static/media/SomePic-1.a409a0ef2dff79edb850.webp",
     "static/media/product-15.png": "/static/media/product-15.7a49a792b3bbdf0c08fb.png",
     "static/media/product-13.png": "/static/media/product-13.330db3331c3773396056.png",
-    "static/media/somePic-2.jpg": "/static/media/somePic-2.66736fca02649affde6c.jpg",
-    "static/media/SomePic-1.jpg": "/static/media/SomePic-1.26b36b6fe71c5f308295.jpg",
     "static/media/product-1.jpg": "/static/media/product-1.c265cd25b8a651149339.jpg",
     "static/media/referense-3.png": "/static/media/referense-3.9c9e7e4837437c957098.png",
     "static/media/servicePage-4.png": "/static/media/servicePage-4.86064d5dc1b174fc0aec.png",
@@ -55,11 +55,11 @@
     "static/media/UzbekFlag.webp": "/static/media/UzbekFlag.c12a0dd84802b2cbbcbc.webp",
     "index.html": "/index.html",
     "main.bf4fb97e.css.map": "/static/css/main.bf4fb97e.css.map",
-    "main.245a545e.js.map": "/static/js/main.245a545e.js.map",
+    "main.d717f5f6.js.map": "/static/js/main.d717f5f6.js.map",
     "651.1b2a341c.chunk.js.map": "/static/js/651.1b2a341c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf4fb97e.css",
-    "static/js/main.245a545e.js"
+    "static/js/main.d717f5f6.js"
   ]
 }
