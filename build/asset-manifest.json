@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bf4fb97e.css",
-    "main.js": "/static/js/main.d717f5f6.js",
+    "main.js": "/static/js/main.cf402c3b.js",
     "static/js/651.1b2a341c.chunk.js": "/static/js/651.1b2a341c.chunk.js",
     "static/media/product-11.jpg": "/static/media/product-11.d619a0dc10ec64f14ff3.jpg",
     "static/media/product-9.jpg": "/static/media/product-9.d619a0dc10ec64f14ff3.jpg",
@@ -51,15 +51,14 @@
     "static/media/gmailIcon.png": "/static/media/gmailIcon.1591380b85f876a051d6.png",
     "static/media/referense-4.png": "/static/media/referense-4.9714d2fc2387d7e6d906.png",
     "static/media/Referense-1.png": "/static/media/Referense-1.ab8ea9f41569ca09974d.png",
-    "static/media/LocationIcon.png": "/static/media/LocationIcon.c7b0df230c961464eca9.png",
     "static/media/UzbekFlag.webp": "/static/media/UzbekFlag.c12a0dd84802b2cbbcbc.webp",
     "index.html": "/index.html",
     "main.bf4fb97e.css.map": "/static/css/main.bf4fb97e.css.map",
-    "main.d717f5f6.js.map": "/static/js/main.d717f5f6.js.map",
+    "main.cf402c3b.js.map": "/static/js/main.cf402c3b.js.map",
     "651.1b2a341c.chunk.js.map": "/static/js/651.1b2a341c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf4fb97e.css",
-    "static/js/main.d717f5f6.js"
+    "static/js/main.cf402c3b.js"
   ]
 }

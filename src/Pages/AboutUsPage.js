@@ -3,7 +3,7 @@ import AboutUs from "../components/AboutUs";
 
 export default function AboutUsPage() {
   return (
-    <div className="min-vh-100 pt-5">
+    <div className="pt-5">
       <AboutUs />
     </div>
   );

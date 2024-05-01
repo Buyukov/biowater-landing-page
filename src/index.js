@@ -7,6 +7,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import ScrollToTop from "./helpers/scrollToTop";
 import { BrowserRouter  as Router } from "react-router-dom";
+
 function setDefaultLanguageAction() {
   let defaultLanguageAction = localStorage.getItem("defaultLanguageAction");
   if (defaultLanguageAction === null) {

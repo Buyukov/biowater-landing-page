@@ -1,4 +1,4 @@
-import { Container, Card, ListGroup } from "react-bootstrap";
+import { Container, Card} from "react-bootstrap";
 import { translateText } from "../helpers/translation";
 import ProductImage1 from "../Images/product-1.jpg";
 import ProductImage2 from "../Images/product-2.jpg";
@@ -25,6 +25,7 @@ import ProductImage22 from "../Images/product-22.png";
 import ProductImage23 from "../Images/product-23.png";
 import ProductImage24 from "../Images/product-24.png";
 
+
 export default function ProductsContent() {
   return (
     <Container>
@@ -40,7 +41,7 @@ export default function ProductsContent() {
             </Card.Body>
 
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -52,13 +53,13 @@ export default function ProductsContent() {
             <Card.Img variant="top" src={ProductImage2} height="200px" />
             <Card.Body>
               {/* <Card.Title>Card Title</Card.Title> */}
-              <Card.Text>
+              <contact>
                 MBR {translateText().systems} - Mbr2 <br /> <br />
-              </Card.Text>
+              </contact>
             </Card.Body>
 
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -77,7 +78,7 @@ export default function ProductsContent() {
             </Card.Body>
 
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -92,7 +93,7 @@ export default function ProductsContent() {
               <Card.Text>{translateText().ProductsContetWords2}</Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -107,7 +108,7 @@ export default function ProductsContent() {
               <Card.Text>{translateText().ProductsContetWords3}</Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -122,7 +123,7 @@ export default function ProductsContent() {
               <Card.Text>{translateText().ProductsContetWords4}</Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -137,7 +138,7 @@ export default function ProductsContent() {
               <Card.Text>{translateText().ProductsContetWords5}</Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -156,7 +157,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -174,7 +175,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -192,7 +193,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -210,7 +211,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -228,7 +229,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -246,7 +247,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }} s>
+              <Card.Link href="contact" style={{ textDecoration: "none" }} s>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -264,7 +265,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -282,7 +283,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -300,7 +301,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -318,7 +319,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -336,7 +337,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -355,7 +356,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -374,7 +375,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -392,7 +393,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -411,7 +412,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -430,7 +431,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>
@@ -449,7 +450,7 @@ export default function ProductsContent() {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="MobilRaqam" style={{ textDecoration: "none" }}>
+              <Card.Link href="contact" style={{ textDecoration: "none" }}>
                 {translateText().ContactForBuy}
               </Card.Link>
             </Card.Body>

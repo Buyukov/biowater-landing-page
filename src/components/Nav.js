@@ -1,4 +1,4 @@
-import { Navbar, Nav, NavDropdown, Form, Button } from "react-bootstrap";
+import { Navbar, Nav, Form} from "react-bootstrap";
 import Modals from "../components/modal";
 import { translateText, editLanguage } from "../helpers/translation";
 import React from "react";
