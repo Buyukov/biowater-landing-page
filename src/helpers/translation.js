@@ -321,7 +321,7 @@ function translateText() {
     return UzbekLan;
   } else if (userLanguage === "ru") {
     return RussianLan;
-  } else if (userLanguage === "turk") {
+  } else if (userLanguage === "turishLan") {
     return TurkishLan;
   }
 }
